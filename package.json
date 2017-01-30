@@ -1,0 +1,15 @@
+{
+  "name": "baseproject-auat",
+  "version": "1.0.0",
+  "description": "Base project for automated user acceptance testing",
+  "author": "liam.farrell@aerian.com",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber.js test/"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "cucumber": "^2.0.0-rc.6",
+    "mocha": "^3.2.0",
+    "selenium-webdriver": "^3.0.1"
+  }
+}
